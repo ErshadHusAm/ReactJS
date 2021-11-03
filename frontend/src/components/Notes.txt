@@ -1,0 +1,27 @@
+React class notes:
+
+class 1
+Render method is must in class components
+Functional components are stateless
+Class components are stateful
+
+class 2
+Where we need to store some information / state we will use class comp. else we wll always use functional comps to show informations as an UI.
+Destructuring Component from react also works as same
+Using JSX makes code simple and readable
+How to write JSX in React Vanilla JS ?
+in JSX class === className
+in JSX for === htmlFor
+in JSX onclick === onClick 
+
+class 3
+props are read only
+
+Pure Component - Stops unnecessary render method calling. Also works as an aternative of shouldComponentUpdate().
+If make parent component PureComponent then all child components will be PureComponent
+*PureComponent is for class components
+*Memo is used for functional component for same purpose
+
+Refs - 
+It is used in place of getElementById for the same purpose;
+Also used to focus an input field on page load = this.firstNameRef.current.focus()

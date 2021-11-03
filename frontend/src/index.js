@@ -3,15 +3,31 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyClassComp from './components/MyClassComp';
-import Hello from './components/Hello';
-import Hi from './components/Hi';
-import Greet from './components/Greet';
-import PropsClass from './components/PropsClass';
+import MainComp from './components/MainComp';
+import MemoRef from './components/MemoRef';
+// import UnmountComp from './components/UnmountComp';
+// import UncontrolledFormComp from './components/UncontrolledFormComp';
+// import ControlledFormComp from './components/ControlledFormComp';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import MyClassComp from './components/MyClassComp';
+// import Hello from './components/Hello';
+// import Hi from './components/Hi';
+// import Greet from './components/Greet';
+// import PropsClass from './components/PropsClass';
+// import StateComp from './components/StateComp';
+// import BindingEventComp from './components/BindingEventComp';
+// import ParentComp from './components/ParentComp';
+// import ConditionalRenderComp from './components/ConditionalRenderComp';
+// import ListRenderComp from './components/ListRenderComp';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <ListRenderComp />
+    <ConditionalRenderComp />
+    <ParentComp />
+    <BindingEventComp />
+    <StateComp/>
     <MyClassComp />
     <Hello>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, placeat, at perspiciatis earum praesentium maxime iure accusamus dolor consequatur, sequi laudantium recusandae? Incidunt, nulla quia!</p>
@@ -28,7 +44,12 @@ ReactDOM.render(
     <Greet name="Tushar" age={24}/>
     <PropsClass role="Creative Developer" id={2962}>
         <button>Salary</button>
-    </PropsClass>
+    </PropsClass> */}
+    {/* <UncontrolledFormComp /> */}
+    {/* <ControlledFormComp /> */}
+    {/* <UnmountComp /> */}
+    <MainComp />
+    <MemoRef />
   </React.StrictMode>,
   document.getElementById('root')
 );

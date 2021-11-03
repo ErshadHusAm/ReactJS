@@ -20,3 +20,14 @@ code {
   background-color: aquamarine;
   font-family: poppins;
 }
+
+.btn{
+  padding: 10px;
+  margin: 5px;
+  background-color: coral;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}

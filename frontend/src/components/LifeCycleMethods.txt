@@ -1,0 +1,19 @@
+Mounting phase = 
+1. constructor()
+2. static getDerivedStatesFromProps()
+3. render() = View of the component
+4. componentDidMount() = Used for calling API, data first set here then render.
+
+Updating phase = 
+1. constructor()
+2. static getDerivedStatesFromProps()
+3. componentShouldUpdate()
+4. render()
+5. getSnapShotBeforeUpdate()
+6. componentDidUpdate()
+
+Unmounting phase = 
+1. componentWillUnmount() = stop/break any task when it is complete or needed
+
+shouldComponentUpdate = 
+Returns true and false to determine whether the component should update or not
