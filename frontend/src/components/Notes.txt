@@ -22,6 +22,11 @@ If make parent component PureComponent then all child components will be PureCom
 *PureComponent is for class components
 *Memo is used for functional component for same purpose
 
-Refs - 
+== Refs - 
 It is used in place of getElementById for the same purpose;
 Also used to focus an input field on page load = this.firstNameRef.current.focus()
+Component mapping - Use functions and methods of one comp in another comp can be enabled using refs. 
+Find Example in -  FocusComp.js
+
+== Higher Order Component
+

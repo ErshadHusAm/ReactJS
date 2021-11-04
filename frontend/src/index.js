@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MainComp from './components/MainComp';
 import MemoRef from './components/MemoRef';
+import FocusComp from './components/FocusComp';
+import HigherOrderComp from './components/HigherOrderComp';
 // import UnmountComp from './components/UnmountComp';
 // import UncontrolledFormComp from './components/UncontrolledFormComp';
 // import ControlledFormComp from './components/ControlledFormComp';
@@ -23,33 +25,35 @@ import MemoRef from './components/MemoRef';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <ListRenderComp />
-    <ConditionalRenderComp />
-    <ParentComp />
-    <BindingEventComp />
-    <StateComp/>
-    <MyClassComp />
-    <Hello>
+    {/* <ListRenderComp /> */}
+    {/* <ConditionalRenderComp /> */}
+    {/* <ParentComp /> */}
+    {/* <BindingEventComp /> */}
+    {/* <StateComp/> */}
+    {/* <MyClassComp /> */}
+    {/* <Hello>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, placeat, at perspiciatis earum praesentium maxime iure accusamus dolor consequatur, sequi laudantium recusandae? Incidunt, nulla quia!</p>
       <button>Click me</button>
-    </Hello>
-    <Hi />
-    <Greet name="Yusuf" age={24}>
+    </Hello> */}
+    {/* <Hi /> */}
+    {/* <Greet name="Yusuf" age={24}>
       <h2>I am chilren</h2>
       <p>Lorem ipsum dolor sit amet.</p>
-    </Greet>
-    <Greet name="Husam" age={25}>
+    </Greet> */}
+    {/* <Greet name="Husam" age={25}>
       <button>Click me 2</button>
-    </Greet>
-    <Greet name="Tushar" age={24}/>
-    <PropsClass role="Creative Developer" id={2962}>
+    </Greet> */}
+    {/* <Greet name="Tushar" age={24}/> */}
+    {/* <PropsClass role="Creative Developer" id={2962}>
         <button>Salary</button>
     </PropsClass> */}
     {/* <UncontrolledFormComp /> */}
     {/* <ControlledFormComp /> */}
     {/* <UnmountComp /> */}
-    <MainComp />
-    <MemoRef />
+    {/* <MainComp /> */}
+    {/* <MemoRef /> */}
+    <FocusComp />
+    <HigherOrderComp />
   </React.StrictMode>,
   document.getElementById('root')
 );
