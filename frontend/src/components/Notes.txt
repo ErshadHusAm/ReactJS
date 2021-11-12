@@ -28,5 +28,16 @@ Also used to focus an input field on page load = this.firstNameRef.current.focus
 Component mapping - Use functions and methods of one comp in another comp can be enabled using refs. 
 Find Example in -  FocusComp.js
 
-== Higher Order Component
+= Higher Order Component =
+
+Used to reuse component and enable better performance
+Create a Class Component as HOC, then create a functional component to receive a child comp as parameter. then create 
+a class component inside with all functionalities which will return the received child comp after utilizing all
+functionalities. 
+The normal components which wants to use the functionalities of HOC should import the HOC in their body and the export
+themslef with the HOC as parameter. (Find all example in HOC folder & CLickComp & HoverComp)
+**always declare {...this.props} to get all passed props dynamically
+
+= Error Handelling =
+
 
