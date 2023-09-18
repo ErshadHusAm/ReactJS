@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class NormalComp extends Component {
-     performOperation = (secondInteger, secondDecimal, secondString) => {
+     performOperation = (secondDecimal) => {
         
         const firstDecimal = 4.0;
         

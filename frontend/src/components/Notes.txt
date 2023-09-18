@@ -41,3 +41,9 @@ themslef with the HOC as parameter. (Find all example in HOC folder & CLickComp 
 = Error Handelling =
 
 
+**Context API**
+
+1. Create the Context
+2. Provide Context value
+3. Consume the context value
+

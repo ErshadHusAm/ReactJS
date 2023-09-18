@@ -5,8 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import MainComp from './components/MainComp';
 // import MemoRef from './components/MemoRef';
-import FocusComp from './components/FocusComp';
-import HigherOrderComp from './components/HigherOrderComp';
+// import FocusComp from './components/FocusComp';
+// import HigherOrderComp from './components/HigherOrderComp';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
+// import AllColorComp from './components/AllColorComp';
+// import ColorComponent from './components/ColorComponent';
+// import ParentCounter from './components/ParentCounter';
+import ParentComp from './othersComponent/ParentComp';
 // import UnmountComp from './components/UnmountComp';
 // import UncontrolledFormComp from './components/UncontrolledFormComp';
 // import ControlledFormComp from './components/ControlledFormComp';
@@ -52,8 +58,14 @@ ReactDOM.render(
     {/* <UnmountComp /> */}
     {/* <MainComp /> */}
     {/* <MemoRef /> */}
-    <FocusComp />
-    <HigherOrderComp />
+    {/* <FocusComp /> */}
+    {/* <HigherOrderComp /> */}
+    {/* <AllColorComp />
+    <ClickCounter /> */}
+    {/* <ColorComponent color={(c)=>c+'red'}/> */}
+    {/* <HoverCounter render={(n)=>n+"Rodela"}/> render props */}
+    {/* <ParentCounter /> */}
+    <ParentComp />
   </React.StrictMode>,
   document.getElementById('root')
 );
